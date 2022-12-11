@@ -1,6 +1,6 @@
 <?php
 
-require "Core/CookieHelper.php";
+require_once "Core/CookieHelper.php";
 
 
 require_once "core/router/Router.php";

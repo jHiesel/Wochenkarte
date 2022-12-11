@@ -11,7 +11,7 @@ class Router
 
     public function direct($uri)
     {
-        if (!CookieHelper::checkForCookies("allowed")){
+        if (!CookieHelper::checkForCookies("allowed") && !isset($_POST['allowed'])){
             $uri = "cookie";
         }
 

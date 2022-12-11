@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +24,8 @@
 
         <input type="email"
                name="E-mail"
-               maxlength="100"
+               min="5"
+               max="30"
                placeholder="Enter E-mail here"
                class="form-control"
         >
@@ -32,7 +37,11 @@
             <input type="password"
                     name="password"
                     placeholder="Enter Password here"
-                    class="form-control">
+                    class="form-control"
+                    min="5"
+                   max="20"
+            >
+
         </div>
     </form>
 
