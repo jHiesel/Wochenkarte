@@ -1,6 +1,5 @@
 <?php
 
 $router->define([
-    ""=> "controller/indexController.php",
-    "login"=> "controller/loginController.php"
-]);
+    ""=> "Controller/indexController.php",
+    ]);
