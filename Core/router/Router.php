@@ -11,7 +11,9 @@ class Router
 
     public function direct($uri)
     {
-        
+        if (!CookieHelper::checkForCookies("allowed")){
+            $uri = "cookie";
+        }
 
         if(array_key_exists($uri,$this->routes))
         {
