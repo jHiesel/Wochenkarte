@@ -1,7 +1,11 @@
 <?php
-if (isset($_POST['allowed'])){
-    CookieHelper::createCookie("allowed",true);
-    require "view/index.view.php";
+
+if (isset($_POST["login"]) && isset($_POST["password"]) && isset($_POST["Email"])){
+    foreach ($CheckUser as $value){
+        if ($value->getEmail() === $_POST["Email"] && $value->getPassword() === $_POST["password"]){
+            header("Location: loggedIn");
+        }
+    }
 }else{
-    require "view/cookie.view.php";
+    require "view/index.view.php";
 }

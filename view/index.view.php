@@ -1,47 +1,53 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
     <styl>
-        <link href="../css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+        <link href="../css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     </styl>
 </head>
 <body>
-<div class="container" >
+<div class="container">
 
     <div class="row">
-        <h1 class="h1" >Login</h1>
+        <h1 class="h1">Login</h1>
     </div>
 
     <form action="/" method="post" class="form-control-lg">
         <div class="row-cols-auto">
-        <label class="form-label">E-mail</label>
+            <label class="form-label">E-mail</label>
 
-        <input type="email"
-               name="E-mail"
-               min="5"
-               max="30"
-               placeholder="Enter E-mail here"
-               class="form-control"
-        >
+            <input type="email"
+                   name="Email"
+                   min="5"
+                   max="30"
+                   placeholder="Enter E-mail here"
+                   class="form-control"
+            >
         </div>
 
         <div class="row-cols-3 ">
             <label class="form-label">Password</label>
 
             <input type="password"
-                    name="password"
-                    placeholder="Enter Password here"
-                    class="form-control"
-                    min="5"
+                   name="password"
+                   placeholder="Enter Password here"
+                   class="form-control"
+                   min="5"
                    max="20"
             >
 
+        </div>
+        <div class="row-cols-3">
+            <input type="submit"
+                   name="login"
+                   class="btn btn-primary"
+                   value="login"
+            >
+        </div>
+        <div class="row-cols-3">
+            <a class="btn btn-secondary" href="index.view.php"> Reset</a>
         </div>
     </form>
 

@@ -11,9 +11,8 @@ class Router
 
     public function direct($uri)
     {
-        if (!CookieHelper::checkForCookies("allowed") && !isset($_POST['allowed'])){
-            $uri = "cookie";
-        }
+
+        if (isset($_SESSION["hasAllowedCookies"]) || CookieHelper::checkForCookies("allowedCookies") ){
 
         if(array_key_exists($uri,$this->routes))
         {
@@ -21,6 +20,9 @@ class Router
         } else
         {
             throw new Exception('Die Rute '.$uri.' wurde nicht Gefunden');
+        }
+        }else{
+            return "view/cookie.view.php";
         }
     }
 }

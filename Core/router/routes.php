@@ -1,6 +1,7 @@
 <?php
 
 $router->define([
-    ""=> "Controller/indexController.php",
-    "cookie"=>"view/cookie.view.php"
+    ""=> "Controller/cookieController.php",
+    "login"=>"Controller/indexController.php",
+    "loggedIn"=>"view/loggedIn.view.php"
     ]);
