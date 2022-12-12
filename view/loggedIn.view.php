@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+var_dump(unserialize($_SESSION["loggedInUser"]));
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
