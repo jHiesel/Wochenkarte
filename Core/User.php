@@ -44,6 +44,25 @@ class User
         $this->password = $password;
     }
 
+    public static function validatePassword($password){
+        if ($password <= 30 && $password >= 5){
+            return true;
+        }else{
+            return false;
+        }
 
+}
+    public static function validateEmail($email)
+    {
+        if ($email <= 20 && $email >= 5) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
+    public static function validate($email, $password){
+        return User::validateEmail($email) & User::validatePassword($password);
+
+    }
 }
