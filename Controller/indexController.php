@@ -1,6 +1,6 @@
 <?php
 
-if ((isset($_POST["login"]) && isset($_POST["password"]) && isset($_POST["Email"])) || isset($_SESSION["loggedIn"])){
+if ((isset($_POST["login"]) && isset($_POST["password"]) && isset($_POST["Email"])) || isset($_SESSION["loggedInUser"])){
     foreach ($CheckUser as $value){
 
         if ($value->getEmail() === $_POST["Email"] && $value->getPassword() === $_POST["password"]){
@@ -15,13 +15,12 @@ if ((isset($_POST["login"]) && isset($_POST["password"]) && isset($_POST["Email"
         }
 
         if (isset($_SESSION["loggedInUser"])){
+            var_dump("help");
             $user = unserialize($_SESSION["loggedInUser"]);
-            var_dump($user = unserialize($_SESSION["loggedInUser"]));
-            foreach ($CheckUser as $eachUser){
-                if ($user->getEmail() == $eachUser->getEmail() && $user->getPassword() == $eachUser->getPassword()){
-                    header("Location: loggedIn");
+                if ($user->getEmail() === $value->getEmail() && $user->getPassword() === $value->getPassword()){
+                    header("location: loggedIn");
                 }
-            }
+
         }
     }
 
