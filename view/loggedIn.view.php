@@ -10,7 +10,7 @@
 </head>
 <body>
 <a href="../"> logout</a>
-<h1>Login Page</h1>
+<h1>Wochenkarte</h1>
 
 
 </body>

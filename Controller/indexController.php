@@ -15,7 +15,6 @@ if ((isset($_POST["login"]) && isset($_POST["password"]) && isset($_POST["Email"
     }
 
     $error = "something went wrong";
-
     require "view/index.view.php";
 }else{
     require "view/index.view.php";
