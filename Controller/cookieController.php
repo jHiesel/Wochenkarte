@@ -4,8 +4,8 @@ if (isset($_SESSION["hasAllowedCookies"])){
     unset($_SESSION["hasAllowedCookies"]);
     header("Location: login");
 }else {
-    if (isset($_SESSION["loggedIn"])) {
-     unset($_SESSION["loggedIn"]);
+    if (isset($_SESSION["loggedInUser"])) {
+     unset($_SESSION["loggedInUser"]);
 }
     require "Controller/indexController.php";
 }
