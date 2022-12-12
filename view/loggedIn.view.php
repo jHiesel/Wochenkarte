@@ -9,7 +9,9 @@
     </styl>
 </head>
 <body>
+<a href="../"> logout</a>
 <h1>Login Page</h1>
+
 
 </body>
 </html>

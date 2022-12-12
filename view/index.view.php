@@ -14,6 +14,14 @@
         <h1 class="h1">Login</h1>
     </div>
 
+    <div class="row">
+        <h2 class="toDanger"><?php
+                if (isset($error)){
+                    echo $error;
+                }
+            ?></h2>
+    </div>
+
     <form action="/" method="post" class="form-control-lg">
         <div class="row-cols-auto">
             <label class="form-label">E-mail</label>
@@ -47,7 +55,7 @@
             >
         </div>
         <div class="row-cols-3">
-            <a class="btn btn-secondary" href="index.view.php"> Reset</a>
+            <a class="btn btn-secondary" href="/"> Reset</a>
         </div>
     </form>
 
