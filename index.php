@@ -11,8 +11,4 @@ $CheckUser = [new User("johannes@hiesel", "123456"), new User("test@test","12345
 
 $uri = htmlspecialchars(trim($_SERVER['REQUEST_URI'],'/'));
 
-
-if (isset($_POST["allowed"])){
-    $_SESSION["hasAllowedCookies"] = true;
-}
 require $router->direct($uri);

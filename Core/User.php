@@ -65,4 +65,10 @@ class User
         return User::validateEmail($email) & User::validatePassword($password);
 
     }
+
+    public static function loggout(){
+        if (isset($_SESSION['loggedInUser'])){
+            unset($_SESSION['loggedInUser']);
+        }
+    }
 }

@@ -10,6 +10,7 @@
     <h1 class="h1">
         Accept our Cookies
     </h1>
+
     <form method="post" action="/" >
         <input  type="submit"
                 class="btn btn-primary"

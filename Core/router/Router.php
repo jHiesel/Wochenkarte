@@ -12,7 +12,7 @@ class Router
     public function direct($uri)
     {
 
-        if (isset($_SESSION["hasAllowedCookies"]) || CookieHelper::checkForCookies("allowedCookies") ){
+        if (isset($_POST["allowed"]) || CookieHelper::checkForCookies("allowedCookies") ){
 
         if(array_key_exists($uri,$this->routes))
         {

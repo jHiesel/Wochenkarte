@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <styl>
+
         <link href="../css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    </styl>
+
 </head>
 <body>
 <div class="container">
@@ -47,6 +47,7 @@
             >
 
         </div>
+
         <div class="row-cols-3">
             <input type="submit"
                    name="login"
@@ -54,12 +55,11 @@
                    value="login"
             >
         </div>
+
         <div class="row-cols-3">
             <a class="btn btn-secondary" href="/"> Reset</a>
         </div>
     </form>
-
 </div>
-
 </body>
 </html>
