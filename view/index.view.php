@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
 
-        <link href="../css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
 </head>
 <body>
@@ -16,9 +16,9 @@
 
     <div class="row">
         <h2 class="toDanger"><?php
-                if (isset($error)){
-                    echo $error;
-                }
+            if (isset($error)) {
+                echo $error;
+            }
             ?></h2>
     </div>
 

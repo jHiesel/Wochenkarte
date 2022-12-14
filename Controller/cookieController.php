@@ -1,12 +1,12 @@
 <?php
-if (isset($_POST["allowed"])){
+if (isset($_POST["allowed"])) {
 
-    CookieHelper::createCookie("allowedCookies",true);
+    CookieHelper::createCookie("allowedCookies", true);
     unset($_SESSION["hasAllowedCookies"]);
     header("Location: login");
-    
+
 }
-    require "Controller/indexController.php";
+require "Controller/loginController.php";
 
 
 

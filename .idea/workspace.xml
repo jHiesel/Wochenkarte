@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c206638e-1a6f-40ae-b7e7-44d8706283cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller/logoutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Wochenkarte.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/cookieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/cookieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/indexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/indexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/indexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/loginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CookieHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/CookieHelper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/router/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/router/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/router/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/router/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/cookie.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/cookie.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.view.php" afterDir="false" />
@@ -40,24 +39,24 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IlqpfMtnpzs123QCs9YNqk2sot" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +71,8 @@
       <workItem from="1670887376342" duration="1212000" />
       <workItem from="1670888781596" duration="140000" />
       <workItem from="1670889222129" duration="291000" />
-      <workItem from="1670915405193" duration="3935000" />
+      <workItem from="1670915405193" duration="4113000" />
+      <workItem from="1671014557495" duration="4099000" />
     </task>
     <servers />
   </component>

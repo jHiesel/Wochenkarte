@@ -1,5 +1,5 @@
 <?php
-if(!isset($_SESSION["loggedInUser"])){
+if (!isset($_SESSION["loggedInUser"])) {
     header("location: login");
 }
 ?>
@@ -9,7 +9,7 @@ if(!isset($_SESSION["loggedInUser"])){
     <meta charset="UTF-8">
     <title>Login</title>
 
-        <link href="../css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
 </head>
 <body>
