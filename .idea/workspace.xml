@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c206638e-1a6f-40ae-b7e7-44d8706283cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/Wochenkarte.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/cookieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/cookieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/indexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/loginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/CookieHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/CookieHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/router/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/router/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/router/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/router/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/cookie.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/cookie.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/loggedIn.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/loggedIn.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/loggedIn.view.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +64,8 @@
       <workItem from="1670888781596" duration="140000" />
       <workItem from="1670889222129" duration="291000" />
       <workItem from="1670915405193" duration="4113000" />
-      <workItem from="1671014557495" duration="4099000" />
+      <workItem from="1671014557495" duration="4851000" />
+      <workItem from="1671106422520" duration="405000" />
     </task>
     <servers />
   </component>
