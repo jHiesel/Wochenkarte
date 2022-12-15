@@ -13,13 +13,13 @@ if (isset($_POST["login"]) && isset($_POST["password"]) && isset($_POST["Email"]
 
 
     $error = "something went wrong";
-    require "view/index.view.php";
+    require "view/login.view.php";
 
 } elseif (isset($_SESSION["loggedInUser"])) {
 
     header("Location: loggedIn");
 
 } else {
-    require "view/index.view.php";
+    require "view/login.view.php";
 }
 
